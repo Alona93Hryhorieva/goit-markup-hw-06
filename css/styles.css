@@ -821,7 +821,6 @@ img{
  .container-footer {
    display: flex;
    flex-direction: row;
-    position: relative;
   }
 
   .cont-footer > .container-footer{
@@ -830,19 +829,13 @@ img{
 
  .container-footer-logo {
    display: inline-block;
-   margin-right:24px;
+   /*margin-right:24px;*/
    text-align: left;
   }
 
   .footer-text {
     width: 264px;
   }
-
-  /*.container-footer-link {
-   position: absolute;
-   bottom: auto;
-   le: auto;
-  }*/
 
   .footer-title {
     margin-bottom: 16px;
@@ -857,9 +850,6 @@ img{
     flex-direction: row;
    gap: 24px;
   }
-
- 
-
 
 }
 
