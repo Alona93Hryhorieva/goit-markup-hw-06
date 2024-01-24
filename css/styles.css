@@ -489,6 +489,7 @@ img{
   gap: 16px;
   align-items: center;
 }
+
 .footer-form-btn{
   margin-left: auto; 
   align-items: center;
@@ -819,17 +820,15 @@ img{
   }
 
  .container-footer {
+   max-width: 584px;
    display: flex;
+   flex-wrap: wrap;
+   gap: 72px 24px;
    flex-direction: row;
-  }
-
-  .cont-footer > .container-footer{
-    max-width: 584px;
   }
 
  .container-footer-logo {
    display: inline-block;
-   /*margin-right:24px;*/
    text-align: left;
   }
 
@@ -842,7 +841,8 @@ img{
   }
 
   .footer-form-btn {
-   
+   text-align: left;
+   align-item;
   }
   
  .footer-form {
