@@ -471,13 +471,13 @@ img{
  font-weight: 500;
  line-height: 1.5;
  letter-spacing: 0.02;
- margin-bottom: 16px;
+ 
 }
 
 .footer-form{
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   align-items: center;
 }
 
@@ -509,9 +509,7 @@ img{
  color: #ffffff;
 }
 
-.modal-footer::placeholder{
-
-}
+.modal-footer::placeholder{}
 
 .form-btn {
   color: #ffffff;
@@ -786,8 +784,9 @@ img{
   .perevagu-list {
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 72px;
-    row-gap: 24px;
+   /* column-gap: 72px;
+    row-gap: 24px;*/
+    gap: 72px 24px;
   }
 
   .perevagu-item {
@@ -805,8 +804,9 @@ img{
  .comanda-list {
    flex-direction: row;
    flex-wrap: wrap;
-   row-gap: 24px;
-   column-gap: 64px;
+   gap: 64px 24px;
+   /*row-gap: 64px;
+   column-gap: 24px;*/
  }
  .comanda-item {
     width: calc((100% - 24px) / 2);
@@ -816,8 +816,9 @@ img{
   .portfolio-list {
    flex-direction: row;
    flex-wrap: wrap;
-   column-gap: 24px;
-   row-gap: 48px;
+   /*column-gap: 24px;
+   row-gap: 48px;*/
+   gap: 48px 24px;
   }
 
   .portfolio-item {
@@ -889,37 +890,34 @@ img{
    display: flex;
    align-items: baseline;
    gap
+  }
+
+ .container-footer-logo {
+   margin-right: 120px;
+  }
+
+ .footer-logo{
+   display: inline-block;
+   margin-bottom: 16px;
+  }
+  .footer-text {
+    text-align: left;
+  }
+
+  .footer-form-btn {
+   margin-left: auto;
+  }
+
+  .footer-title {
+    margin-bottom: 16px;
+
+  
+  .footer-form{
+    display: flex;
+    flex-direction: row;
+   gap: 24px;
+   align-items: center;
  }
-.container-footer-logo {
-  margin-right: 120px;
-}
-
-.footer-logo{
- display: inline-block;
- margin-bottom: 16px;
-}
-.footer-text {
- text-align: left;
-}
-
-.footer-form-btn {
-  margin-left: auto;
-}
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
 
 
 }
