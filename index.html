@@ -35,12 +35,12 @@
        </div>
      </header>
     <main>-->
-       <!-- <section class="title section">nazva sayta -->
-        <!--  <div class="container"> 
+       <section class="title"><!--nazva sayta-->
+          <div class="container"> 
              <h1 class="page-title">Effective Solutions for Your Business</h1>
              <button class="page-button" type="button">Order Service</button>
           </div>
-       </section>-->
+       </section>
        <section class="section">
           <div class="container">
              <h2 class="visually-hidden perevagu-skr-title">Perevagu saytu</h2>
@@ -99,7 +99,9 @@
                <div class="comanda-conteiner">
                   <ul class="comanda-list">
                      <li class="comanda-item">
-                       <img class="comanda-img" src="./images/img(1)(1).jpg" alt="Mark Guerrero" width="264">
+                       <img class="comanda-img" 
+                       srcset="./images/img1-min.jpg 1x, ./images/img1@2x-min.jpg 2x"
+                       src="./images/img(1)(1).jpg" alt="Mark Guerrero" width="264">
                        <div class="container-name">
                           <h3 class="comanda-name">Mark Guerrero</h3>
                           <p class="comanda-text">Product Designer</p>
@@ -128,7 +130,7 @@
                        </div>
                     </li>
                     <li class="comanda-item">
-                       <img class="comanda-img" src="./images/img(2)(1).jpg" alt="Tom Ford" width="264">
+                       <img class="comanda-img" srcset="./images/img2-min.jpg 1x, ./images/img2@2x-min.jpg 2x" src="./images/img(2)(1).jpg" alt="Tom Ford" width="264">
                       <div class="container-name">
                           <h3 class="comanda-name">Tom Ford</h3>
                           <p class="comanda-text">Frontend Developer</p>
@@ -157,7 +159,7 @@
                       </div>
                     </li>
                     <li class="comanda-item">
-                       <img class="comanda-img" src="./images/img(3)(1).jpg" alt="Camila Garcia" width="264">
+                       <img class="comanda-img" srcset="./images/img3-min.jpg 1x, ./images/img3@2x-min.jpg 2x" src="./images/img(3)(1).jpg" alt="Camila Garcia" width="264">
                       <div class="container-name">
                           <h3 class="comanda-name">Camila Garcia</h3>
                           <p class="comanda-text">Marketing</p>
@@ -188,7 +190,7 @@
                       </div>
                     </li>
                     <li class="comanda-item">
-                       <img class="comanda-img" src="./images/img(4)(1).jpg" alt="Daniel Wilson" width="264">
+                       <img class="comanda-img" srcset="./images/img4-min.jpg 1x, ./images/img4@2x-min.jpg 2x" src="./images/img(4)(1).jpg" alt="Daniel Wilson" width="264">
                        <div class="container-name">
                           <h3 class="comanda-name">Daniel Wilson</h3>
                           <p class="comanda-text">UI Designer</p>
@@ -226,6 +228,9 @@
                <ul class="portfolio-list">
                   <li class="portfolio-item">
                      <div class="portfolio-img-overlay">
+                        <picture>
+                           <source srcset="./images"
+                        </picture>
                         <img src="./images/img1.jpg" alt="Banking App" width="360">
                         <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                       Cloud Storage App</p>

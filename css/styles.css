@@ -145,24 +145,37 @@ img{
 .title{
  background-color: #2E2F42;
  background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)),
- url(../images/people-office.jpg);
- max-width: 1440px;
+ url(../images/Dark-bg-mob-min.jpg);
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
- padding: 188px 0;
  margin: 0 auto;
+ padding: 72px 0;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+  .title {
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+    url(../images/Dark-bg-mob@2x-min.jpg);
+  }
 }
 
 .page-title{
- font-size: 56px;
+ font-size: 36px;
  letter-spacing: 0.02em;
- line-height: 1.07;
+ /*line-height: 1.07;*/
+ line-height: 1.11;
  color:#FFF;
- max-width: 496px;
+ font-weight: 700;
+ /*font-weight: 400;*/
+ max-width: 160px;
+ /*max-width: 496px;*/
  text-align: center;
  margin: 0 auto;
- margin-bottom: 48px;
+ text-transform: capitalize;
+
 }
 
 .page-button{
@@ -174,6 +187,8 @@ img{
  font-weight: 500;
  line-height: 1.5;
  letter-spacing: 0.04em;
+ margin-top: 72px;
+ /*margin-top: 72px;*/
  text-align: center;
  display: block;
  margin-left: auto;
@@ -443,7 +458,7 @@ img{
 }
 
 .container-footer-logo{
- margin:0 auto;
+ 
 }
 
 .footer-logo{
@@ -483,15 +498,14 @@ img{
  background-color: #31d0aa;
 }
 
+.footer-form-btn{
+  align-items: center;
+}
+
 .footer-form{
   display: flex;
   flex-direction: column;
   gap: 16px;
-  align-items: center;
-}
-
-.footer-form-btn{
-  margin-left: auto; 
   align-items: center;
 }
 
@@ -781,6 +795,23 @@ img{
     max-width: 768px;
   }
 
+  .title {
+    padding: 112px 0;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/Dark-bg-tab-min.jpg);
+  } 
+
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 2dppx),
+    (min-resolution: 192dpi){
+     .title {
+      background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/Dark-bg-tab@2x-min.jpg);
+    }
+  }
+  .page-title {
+    font-size: 56px; 
+    text-align: left;
+    max-width: 496px;
+  }
+
   .perevagu-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -821,7 +852,6 @@ img{
 
  .container-footer {
    max-width: 584px;
-   display: flex;
    flex-wrap: wrap;
    gap: 72px 24px;
    flex-direction: row;
@@ -840,15 +870,21 @@ img{
     margin-bottom: 16px;
   }
 
+  .container-footer-link{
+    text-align: left;
+  }
+
   .footer-form-btn {
    text-align: left;
-   align-item;
   }
   
  .footer-form {
-    display: flex;
     flex-direction: row;
    gap: 24px;
+  }
+
+  .modal-footer {
+    width: 264px;
   }
 
 }
@@ -863,6 +899,23 @@ img{
    padding-top: 120px;
    padding-bottom: 120px;
   }
+
+  .title {
+   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+   url(../images/people-office-dec-min.jpg);
+   max-width: 1440px;
+    padding: 188px 0;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+   .title {
+     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office-dec@2x-min.jpg);
+    }
+  }
+
+
 
   .perevagu-list {
     gap: 24px;
@@ -885,10 +938,6 @@ img{
  .perevagu-icons {
    display: flex;
   }
-
- .comanda-conteiner>.container {
-   max-width: 1158px;
- }
 
  .comanda-list {
    gap: 24px;
@@ -913,12 +962,13 @@ img{
   }
 
   .container-footer {
-   display: flex;
    align-items: baseline;
+   gap: 0;
   }
 
   .container-footer-logo {
    margin-right: 120px;
+
   }
 
   .footer-logo {
@@ -942,20 +992,19 @@ img{
    margin-bottom: 16px;
   }
 
+  .container-footer-link {
+
+  }
+
+ .footer-form-btn {
+    margin-left:auto;
+  }
   
   .footer-list-icons {
-   display: flex;
-   gap: 16px;
   }
 
   .footer-form {
-   display: flex;
    gap: 24px;
-   align-items: center;
-  }
-
-  .footer-form-btn {
-   margin-left: auto;
   }
 
   .modal-footer {
