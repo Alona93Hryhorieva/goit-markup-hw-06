@@ -160,8 +160,8 @@ img{
 }
 
 .nav-mob-link:hover,
-.nav-mob-link:focus{
-  color: #404BBF;
+.nav-mob-link:focus {
+ color: #404BBF;
 }
 
 .mob-adress {}
@@ -183,7 +183,7 @@ img{
 }
 
 .mob-adress-link:hover, 
-.mob-adress-link:focus,{
+.mob-adress-link:focus{
   color:#4D5AE5;
 }
 
