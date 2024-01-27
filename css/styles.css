@@ -1009,6 +1009,15 @@ img{
   .checkbox {
     display: inline;
   }
+  .checkbox-text-span {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .span-link{
+    margin-left: 8px;
+  }
 }
 /*------desktop----*/
 
